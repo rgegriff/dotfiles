@@ -81,3 +81,9 @@ export PATH="/home/george/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/loca
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+# Install Ruby Gems to ~/gems
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+
+alias o="xdg-open"
+alias please='sudo'

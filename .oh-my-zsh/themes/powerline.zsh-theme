@@ -129,3 +129,5 @@ if [ "$POWERLINE_DISABLE_RPROMPT" = "" ]; then
         RPROMPT="$POWERLINE_GIT_INFO_RIGHT%F{white}"$'\ue0b2'"%k%F{black}%K{white} $POWERLINE_RIGHT_B %f%F{240}"$'\ue0b2'"%f%k%K{240}%F{255} $POWERLINE_RIGHT_A %f%k"
     fi
 fi
+PROMPT=$PROMPT"
+➜ "
