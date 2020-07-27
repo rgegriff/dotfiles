@@ -85,5 +85,19 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
 
+# Install Go
+export PATH=$PATH:/usr/local/go/bin
+
 alias o="xdg-open"
+alias xo="xdg-open"
 alias please='sudo'
+alias sshconf="vi ~/.ssh/config"
+
+function pid_envs () {
+  tr '\0' '\n' < /proc/$1/environ
+}
+
+alias activatebbx="source ~/Code/blenderbox/bbox-cli/venv/bin/activate"
+alias dcom="docker-compose"
+eval $(thefuck --alias darn)
+eval $(thefuck --alias)

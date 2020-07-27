@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/george/dotfiles'
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/george/Code/blenderbox/myschools/ansible/roles/django-appserver/tasks'
+let g:netrw_dirhist_4='/home/george/Code/blenderbox/myschools/ansible/roles/django-appserver'
+let g:netrw_dirhist_3='/home/george/Code/blenderbox/myschools/ansible/inventories/staging_doe'
+let g:netrw_dirhist_2='/home/george/Code/blenderbox/myschools/ansible/inventories/QA'
+let g:netrw_dirhist_1='/home/george/Code/blenderbox/myschools/ansible/inventories/dev_doe'
+let g:netrw_dirhist_0='/home/george/Code/blenderbox/myschools/ansible/inventories/production'
+let g:netrw_dirhist_9='/home/george/Code/blenderbox/myschools/ansible/inventories/dev_doe'
+let g:netrw_dirhist_8='/home/george/Code/blenderbox/myschools/ansible/inventories/trial_inv'
+let g:netrw_dirhist_7='/home/george/Code/blenderbox/myschools'
+let g:netrw_dirhist_6='/home/george/Code/blenderbox/schoolchoice/scripts'
