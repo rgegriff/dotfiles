@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/george/Code/blenderbox/gheli/settings'
+let g:netrw_dirhist_7='/home/george/Code/blenderbox/schoolchoice/config/gunicorn'
+let g:netrw_dirhist_6='/home/george/Code/blenderbox/weteachnyc/config/gunicorn'
+let g:netrw_dirhist_5='/home/george/Code/blenderbox/weteachnyc/config'
+let g:netrw_dirhist_4='/home/george/Code/blenderbox/weteachnyc/config/deploy'
+let g:netrw_dirhist_3='/home/george/Code/blenderbox/myschools/ansible/inventories/virginiademo'
+let g:netrw_dirhist_2='/home/george/Code'
+let g:netrw_dirhist_1='/home/george/Code/blenderbox'
+let g:netrw_dirhist_0='/home/george/Code/blenderbox/myschools'
+let g:netrw_dirhist_9='/home/george/Code/blenderbox/myschools/doesems'

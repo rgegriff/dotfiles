@@ -1,0 +1,22 @@
+[
+  (
+    enabled: true,
+    appid: "keepassxc",
+    title: ".*"
+  ),
+  (
+    enabled: true,
+    appid: ".*",
+    title: "Vivaldi Settings:.*"
+  ),
+  (
+    enabled: true,
+    appid: ".*",
+    title: ".*1Password.*"
+  ),
+  (
+    enabled: true,
+    appid: "com.system76.CosmicSettings",
+    title: ".*"
+  )
+]

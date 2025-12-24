@@ -1,0 +1,27 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+    ): System(Launcher),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "w",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "d",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "backslash",
+        description: Some("1Password Quick Access"),
+    ): Spawn("1password --quick-access"),
+}
