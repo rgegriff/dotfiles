@@ -1,6 +1,6 @@
 (
     output: "all",
-    source: Path("/home/george/Pictures/LofigirlWallpapers/PC Wallpapers/4.png"),
+    source: Path("/home/george/Pictures/LofigirlWallpapers/PC Wallpapers/16.png"),
     filter_by_theme: true,
     rotation_frequency: 300,
     filter_method: Lanczos,

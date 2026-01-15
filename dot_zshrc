@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="powerline"
+ZSH_THEME="lambda"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -26,7 +26,7 @@ ZSH_THEME="powerline"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -50,8 +50,6 @@ plugins=(git, python, zshmarks)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-export PATH="/home/george/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -79,25 +77,3 @@ export PATH="/home/george/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/loca
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-# Install Ruby Gems to ~/gems
-export GEM_HOME=$HOME/gems
-export PATH=$HOME/gems/bin:$PATH
-
-# Install Go
-export PATH=$PATH:/usr/local/go/bin
-
-alias o="xdg-open"
-alias xo="xdg-open"
-alias please='sudo'
-alias sshconf="vi ~/.ssh/config"
-
-function pid_envs () {
-  tr '\0' '\n' < /proc/$1/environ
-}
-
-alias activatebbx="source ~/Code/blenderbox/bbox-cli/venv/bin/activate"
-alias dcom="docker-compose"
-eval $(thefuck --alias darn)
-eval $(thefuck --alias)
