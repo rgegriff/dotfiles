@@ -18,5 +18,10 @@
     enabled: true,
     appid: "com.system76.CosmicSettings",
     title: ".*"
-  )
+  ),
+  (
+    enabled: true,
+    appid: ".*",
+    title: "Calculator"
+  ),
 ]
