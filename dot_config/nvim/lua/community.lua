@@ -9,6 +9,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   --{ import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.html-css"},
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.git.octo-nvim" },
